@@ -11,9 +11,33 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__nav">
+          <a href="./index.html">
+            <img src="./images/header-logo.png" alt="logo" />
+          </a>
+          <ul class="header__nav-list">
+            <li>
+              <a href="">Order</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Results</a>
+            </li>
+          </ul>
+          <button class="header__open-menu js-open-menu" type="button">
+            <svg class="header-icon-menu">
+              <use href="./images/icons.svg#icon-menu-open"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
