@@ -61,9 +61,15 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-    .header {
-        max-width: 768px;
-    }
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .header {
+    max-width: 1140px;
+  }
 }
 
 .header__nav {
@@ -79,6 +85,13 @@ ul {
     background-position: 365px;
     background-size: 350px 100px;
   }
+}
+
+@media screen and (min-width: 1140px) {
+    .header__nav {
+        background-size: 500px;
+        background-position: right;
+    }
 }
 
 .header__nav-list {
@@ -132,4 +145,5 @@ ul {
 }
 
 /* Hero */
-
+.hero {
+}
