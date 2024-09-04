@@ -88,10 +88,10 @@ ul {
 }
 
 @media screen and (min-width: 1140px) {
-    .header__nav {
-        background-size: 500px;
-        background-position: right;
-    }
+  .header__nav {
+    background-size: 500px;
+    background-position: right;
+  }
 }
 
 .header__nav-list {
@@ -146,4 +146,55 @@ ul {
 
 /* Hero */
 .hero {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-image: url("../images/hero/hero-mobile.webp");
 }
+
+.hero__title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f9e994;
+}
+
+.hero__description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 131%;
+  color: #f6f7e4;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.hero__list {
+  background-color: #7fb3e1;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.hero__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.hero__cat-step {
+  width: 18px;
+  height: 24px;
+}
+
+.hero__text {
+  font-weight: 700;
+  font-size: 18px;
+  color: #dfe4de;
+  margin-bottom: 0;
+}
+
+/* Hero form */
