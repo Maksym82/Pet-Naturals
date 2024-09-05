@@ -54,10 +54,13 @@ ul {
 
 /* Header */
 .header {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 20px 0;
-  background-color: rgb(30, 129, 210);
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.header__container {
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -92,6 +95,10 @@ ul {
     background-size: 500px;
     background-position: right;
   }
+}
+
+.header__img {
+  width: 238px;
 }
 
 .header__nav-list {
@@ -148,7 +155,7 @@ ul {
 .hero {
   max-width: 320px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 100px 0;
   background-image: url("../images/hero/hero-mobile.webp");
 }
 
