@@ -157,6 +157,15 @@ ul {
   margin: 0 auto;
   padding: 100px 0;
   background-image: url("../images/hero/hero-mobile.webp");
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    min-height: 844px;
+    background-image: url("../images/hero/hero-tablet.webp");
+  }
 }
 
 .hero__title {
@@ -167,6 +176,29 @@ ul {
   color: #f9e994;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__img {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
+.hero__info {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__info {
+    display: block;
+  }
+}
+
 .hero__description {
   font-weight: 700;
   font-size: 18px;
@@ -174,6 +206,12 @@ ul {
   color: #f6f7e4;
   margin-bottom: 20px;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 768px) {
+  .hero__description {
+    font-size: 24px;
+  }
 }
 
 .hero__list {
