@@ -163,7 +163,6 @@ ul {
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    min-height: 844px;
     background-image: url("../images/hero/hero-tablet.webp");
   }
 }
@@ -196,6 +195,8 @@ ul {
 @media screen and (min-width: 768px) {
   .hero__info {
     display: block;
+    width: 350px;
+    margin-top: 20px;
   }
 }
 
@@ -243,3 +244,59 @@ ul {
 }
 
 /* Hero form */
+
+/* About */
+.about {
+  max-width: 320px;
+  padding: 20px 0;
+  margin: 0 auto;
+  background-image: url("../images/about/about-bg-1.webp");
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  background: linear-gradient(180deg, #f9e994 0%, #537d13 56.25%, #483c08 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.about__item {
+  width: 288px;
+  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.25);
+  background: #f6e791;
+  border-radius: 20px;
+  padding-bottom: 14px;
+}
+
+.about__image {
+  margin: 0 auto;
+}
+
+.about__box {
+  width: 258px;
+  margin: 0 auto;
+  padding: 8px 8px;
+  border-radius: 20px;
+  background: rgba(161, 211, 55, 0.4);
+}
+
+.about__box-title {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 12px;
+}
+
+.about__box-text {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #483c08;
+  margin-bottom: 0;
+}
