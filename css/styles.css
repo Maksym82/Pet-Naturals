@@ -251,7 +251,9 @@ ul {
   padding: 20px 0;
   margin: 0 auto;
   background-image: url("../images/about/about-bg-1.webp");
-  /* background-repeat: no-repeat */
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
