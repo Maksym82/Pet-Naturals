@@ -251,6 +251,13 @@ ul {
   padding: 20px 0;
   margin: 0 auto;
   background-image: url("../images/about/about-bg-1.webp");
+  /* background-repeat: no-repeat */
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    max-width: 768px;
+  }
 }
 
 .about__title {
@@ -264,10 +271,25 @@ ul {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .about__title {
+    font-size: 42px;
+  }
+}
+
 .about__list {
   display: flex;
   flex-direction: column;
   gap: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+  }
 }
 
 .about__item {
@@ -275,15 +297,24 @@ ul {
   box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.25);
   background: #f6e791;
   border-radius: 20px;
-  padding-bottom: 14px;
+  padding-bottom: 15px;
 }
 
 .about__image {
   margin: 0 auto;
 }
 
+.about__image-flower {
+  margin: 20px auto 28px;
+}
+
+.about__image-food {
+  margin: 14px auto 12px;
+}
+
 .about__box {
-  width: 258px;
+  width: 250px;
+  height: 187px;
   margin: 0 auto;
   padding: 8px 8px;
   border-radius: 20px;
@@ -306,3 +337,5 @@ ul {
   color: #483c08;
   margin-bottom: 0;
 }
+
+
