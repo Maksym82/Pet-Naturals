@@ -264,6 +264,12 @@ ul {
   margin-bottom: 20px;
 }
 
+.about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
 .about__item {
   width: 288px;
   box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.25);
