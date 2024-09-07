@@ -56,7 +56,7 @@
           <h1 class="hero__title">
             Pet Naturals of Vermont, Calming, For Cats
           </h1>
-          <img class="hero__img" src="./images/hero/hero-cats.png" alt="cats" />
+
           <div class="hero__wrapper">
             <div class="hero__info">
               <h2 class="hero__description">
@@ -91,6 +91,11 @@
                 </li>
               </ul>
             </div>
+            <img
+              class="hero__img"
+              src="./images/hero/hero-cats.png"
+              alt="cats"
+            />
             <div class="order-container" id="order-form">
               <div class="hero__time-box">
                 <h2 class="hero__time-left">Time Left</h2>
@@ -105,15 +110,30 @@
                 <div class="form__field">
                   <img
                     class="input__image"
-                    srcset="./images/hero/hero-cat-step@2x.webp"
                     alt="cat step"
-                    src="./images/hero/hero-cat-step@1x.webp"
+                    src="./images/hero/form-cat-step.png"
                     width="24"
                   />
                   <input
+                    class="form__input"
                     type="text"
                     name="user-name"
                     placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="form__field">
+                  <img
+                    class="input__image"
+                    alt="cat step"
+                    src="./images/hero/form-cat-step.png"
+                    width="24"
+                  />
+                  <input
+                    class="form__input"
+                    type="tel"
+                    name="user-phone"
+                    placeholder="+38(0__)___-__-__"
                     required
                   />
                 </div>
