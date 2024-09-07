@@ -57,42 +57,51 @@
             Pet Naturals of Vermont, Calming, For Cats
           </h1>
           <img class="hero__img" src="./images/hero/hero-cats.png" alt="cats" />
-          <div class="hero__info">
-            <h2 class="hero__description">
-              Your cat deserves the best pet supplement the world has to offer.
-              That's what's in the package.
-            </h2>
+          <div class="hero__wrapper">
+            <div class="hero__info">
+              <h2 class="hero__description">
+                Your cat deserves the best pet supplement the world has to
+                offer. That's what's in the package.
+              </h2>
 
-            <ul class="hero__list">
-              <li class="hero__item">
-                <img
-                  class="hero__cat-step"
-                  src="./images/hero/cat-step.png"
-                  alt="cat-step"
-                />
-                <p class="hero__text">Features a patented calming blend</p>
-              </li>
-              <li class="hero__item">
-                <img
-                  class="hero__cat-step"
-                  src="./images/hero/cat-step.png"
-                  alt="cat-step"
-                />
-                <p class="hero__text">Doesn’t contain herbal ingredients</p>
-              </li>
-              <li class="hero__item">
-                <img
-                  class="hero__cat-step"
-                  src="./images/hero/cat-step.png"
-                  alt="cat-step"
-                />
-                <p class="hero__text">Helps manage everyday stress</p>
-              </li>
-            </ul>
-          </div>
-          <div class="hero__time-container">
-            <h2 class="hero__time-left">Time Left</h2>
-            <span>2:00:00</span>
+              <ul class="hero__list">
+                <li class="hero__item">
+                  <img
+                    class="hero__cat-step"
+                    src="./images/hero/cat-step.png"
+                    alt="cat-step"
+                  />
+                  <p class="hero__text">Features a patented calming blend</p>
+                </li>
+                <li class="hero__item">
+                  <img
+                    class="hero__cat-step"
+                    src="./images/hero/cat-step.png"
+                    alt="cat-step"
+                  />
+                  <p class="hero__text">Doesn’t contain herbal ingredients</p>
+                </li>
+                <li class="hero__item">
+                  <img
+                    class="hero__cat-step"
+                    src="./images/hero/cat-step.png"
+                    alt="cat-step"
+                  />
+                  <p class="hero__text">Helps manage everyday stress</p>
+                </li>
+              </ul>
+            </div>
+            <div class="order-container" id="order-form">
+              <div class="hero__time-box">
+                <h2 class="hero__time-left">Time Left</h2>
+                <p class="timer"></p>
+                <div class="price-container">
+                  <div class="line"></div>
+                  <p class="height-price">120uah</p>
+                  <p class="low-price">60uah</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -152,5 +161,6 @@
         </div>
       </section>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>

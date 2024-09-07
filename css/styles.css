@@ -155,6 +155,12 @@ ul {
   color: #f9e994;
 }
 
+@media screen and (min-width: 1140px) {
+  .hero__title {
+    font-size: 52px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero__img {
     width: 450px;
@@ -163,14 +169,15 @@ ul {
 }
 
 .hero__info {
-  display: none;
+  width: 288px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .hero__info {
     display: block;
     width: 350px;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 }
 
@@ -217,7 +224,88 @@ ul {
   margin-bottom: 0;
 }
 
-/* Hero form */
+/* Hero wrapper */
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__wrapper {
+    flex-direction: row;
+  }
+}
+
+/* Timer */
+.order-container {
+  width: 270px;
+  height: 462px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 20px 20px 10px 10px;
+  background: #fdfcfc;
+}
+
+.hero__time-box {
+  width: 270px;
+  height: 190px;
+  background-image: url("../images/hero/timer-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.hero__time-left {
+  font-weight: 700;
+  font-size: 33px;
+  color: #483c08;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.timer {
+  font-weight: 700;
+  font-size: 36px;
+  color: #f6e791;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.price-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 222px;
+}
+
+.height-price {
+  font-weight: 700;
+  font-size: 30px;
+  color: #6b6b6b;
+  margin-bottom: 0;
+}
+
+.low-price {
+  font-weight: 700;
+  font-size: 36px;
+  color: #483c08;
+  margin-bottom: 0;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  border: 2px solid #f6be91;
+  width: 110px;
+  height: 0px;
+  transform: rotate(163deg);
+}
 
 /* About */
 .about {
@@ -290,7 +378,7 @@ ul {
 
 .about__box {
   width: 250px;
-  height: 215px;
+  height: 225px;
   margin: 0 auto;
   padding: 8px 8px;
   border-radius: 20px;
