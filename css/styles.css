@@ -332,9 +332,36 @@ ul {
   background-color: #f3efef;
   border: none;
   outline: none;
+  transition: border 300ms linear;
+}
+
+.form__input:focus {
+  border: 1px solid green;
+}
+
+.form__input::placeholder {
   font-weight: 700;
   font-size: 16px;
   color: #777;
+}
+
+.form__button {
+  width: 222px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #a1d337;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+}
+
+.form__button:hover,
+.form__button:focus {
+  background-color: #85a73d;
 }
 
 /* About */

@@ -18,3 +18,10 @@ function updateTimer() {
 }
 
 updateTimer();
+
+
+
+
+const phoneMack = document.getElementById("phone");
+
+IMask(phoneMack, { mask: "+{38}(\\000) 000-00-00" });
