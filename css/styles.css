@@ -109,6 +109,8 @@ ul {
 
 @media screen and (min-width: 1140px) {
   .header__nav-list {
+    width: 446px;
+    height: 102px;
     gap: 51px;
   }
 }
@@ -162,7 +164,21 @@ ul {
 
 @media screen and (min-width: 768px) {
   .hero__img {
-    display: none;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__img {
+    position: absolute;
+    left: 190px;
+    top: 54px;
   }
 }
 
@@ -176,6 +192,14 @@ ul {
     display: block;
     width: 350px;
     margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__info {
+    width: 429px;
+    height: 428px;
+    margin: 44px 0 0;
   }
 }
 
@@ -194,10 +218,24 @@ ul {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .hero__description {
+    font-size: 26px;
+    margin-bottom: 60px;
+  }
+}
+
 .hero__list {
   background-color: #7fb3e1;
   border-radius: 20px;
   padding: 10px;
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__list  {
+    width: 323px;
+    padding: 35px 35px 38px;
+  }
 }
 
 .hero__item {
@@ -222,6 +260,12 @@ ul {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 1140px) {
+  .hero__text {
+    font-size: 22px;
+  }
+}
+
 /* Hero wrapper */
 .hero__wrapper {
   display: flex;
@@ -233,6 +277,13 @@ ul {
 @media screen and (min-width: 768px) {
   .hero__wrapper {
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .hero__wrapper {
+    position: relative;
   }
 }
 
