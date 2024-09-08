@@ -128,7 +128,7 @@ ul {
 .hero {
   max-width: 767px;
   margin: 0 auto;
-  padding: 180px 0;
+  padding: 200px 0;
   background: rgba(0, 0, 0, 0.3);
   background-image: url("../images/hero/hero-bg.webp");
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@ ul {
 }
 
 @media screen and (min-width: 1140px) {
-  .hero__list  {
+  .hero__list {
     width: 323px;
     padding: 35px 35px 38px;
   }
@@ -438,15 +438,39 @@ ul {
   max-width: 320px;
   padding: 20px 0;
   margin: 0 auto;
-  background-image: url("../images/about/about-bg-1.webp");
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .about {
+    max-width: 1920px;
+    padding: 52px 0 38px;
+  }
+}
+
+.about__container {
+  max-width: 767px;
+  background-image: url("../images/about/about-bg.webp");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
-  .about {
-    max-width: 768px;
+  .about__container {
+    max-width: 1139px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .about__container {
+    max-width: 1783px;
+    padding: 48px 0 62px;
   }
 }
 
@@ -467,6 +491,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .about__title {
+    font-size: 52px;
+    margin-bottom: 60px;
+  }
+}
+
 .about__list {
   display: flex;
   flex-direction: column;
@@ -482,12 +513,24 @@ ul {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .about__list {
+    gap: 84px;
+  }
+}
+
 .about__item {
   width: 288px;
   box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.25);
   background: #f6e791;
   border-radius: 20px;
   padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__item {
+    width: 305px;
+  }
 }
 
 .about__image {
@@ -506,18 +549,31 @@ ul {
   width: 250px;
   height: 225px;
   margin: 0 auto;
-  padding: 8px 8px;
+  padding: 14px 8px;
   border-radius: 20px;
   background: rgba(161, 211, 55, 0.4);
 }
 
+@media screen and (min-width: 768px) {
+  .about__box {
+    width: 275px;
+    padding: 21px 16px;
+  }
+}
+
 .about__box-title {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   color: #fff;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__box-title {
+    margin-bottom: 19px;
+  }
 }
 
 .about__box-text {
