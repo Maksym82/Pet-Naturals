@@ -1,35 +1,11 @@
-/* Base */
-html {
-  scroll-behavior: smooth;
-}
+@import url('fonts.css');
+@import url('reset.css');
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #f6f7e4;
   background-color: #fff;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .container {
