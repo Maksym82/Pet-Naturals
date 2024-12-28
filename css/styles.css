@@ -8,24 +8,10 @@ body {
   background-color: #fff;
 }
 
-.container {
-  max-width: 767px;
-  padding: 0 16px;
+[class*="__container"] {
+  max-width: 1170px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 1139px;
-    padding: 0 20px;
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .container {
-    max-width: 1140px;
-    padding: 0 24px;
-  }
+  padding: 0 15px;
 }
 
 /* Header */
@@ -429,7 +415,7 @@ body {
   }
 }
 
-.about__container {
+.about {
   max-width: 767px;
   background-image: url("../images/about/about-bg.webp");
   background-repeat: no-repeat;
