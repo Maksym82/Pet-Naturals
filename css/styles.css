@@ -43,25 +43,49 @@ body {
 
 @media (min-width: 768px) {
   .menu {
-    background-image: url("../images/bg-nav.webp");
-    display: flex;
-    align-items: center;
+    position: absolute;
+    right: -5px;
     width: 446px;
     height: 102px;
-    justify-content: center;
+    background-image: url("../images/bg-nav.webp");
+  }
+}
+@media (min-width: 1140px) {
+  .menu {
+    position: absolute;
+    right: -28px;
+    width: 446px;
+    height: 102px;
+    background-image: url("../images/bg-nav.webp");
+  }
+}
+
+@media (min-width: 768px) {
+  .menu__body {
+    width: 270px;
+    padding-top: 40px;
+    margin-left: 106px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .menu__body {
+    width: 394px;
+    margin-left: 0;
   }
 }
 
 @media (min-width: 768px) {
   .menu__list {
     display: flex;
-    gap: 16px;
+    gap: 26px;
   }
 }
 
 @media (min-width: 1140px) {
   .menu__list {
-    gap: 51px;
+    gap: 52px;
+    justify-content: end;
   }
 }
 
@@ -197,6 +221,9 @@ body {
 
 @media screen and (min-width: 1140px) {
   .hero__title {
+    width: 578px;
+    margin: 0 auto;
+    padding-top: 9px;
     font-size: 52px;
   }
 }
